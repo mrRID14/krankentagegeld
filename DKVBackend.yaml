@@ -1,0 +1,17 @@
+﻿AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: demonstrates some simple custom functions
+Resources:
+  DKVBackend:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs4.3
+      CodeUri: .
+      Description: demonstrates some simple custom functions
+      MemorySize: 128
+      Timeout: 7
+      Role: 'arn:aws:iam::092480632380:role/lambda_basic_execution'
+      Events:
+        AlexaSkillEvent:
+          Type: AlexaSkill

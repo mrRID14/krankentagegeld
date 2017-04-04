@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "statusType",
+          "type": "WORK_ABILITY"
+        }
+      ],
+      "intent": "CountCases"
+    },
+    {
+      "slots": [
+        {
+          "name": "sign",
+          "type": "LIST_OF_SIGNS"
+        },
+        {
+          "name": "birthDate",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "ZodiacIntent"
+    },
+    {
+      "intent": "GetFactIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

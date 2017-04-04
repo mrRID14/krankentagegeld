@@ -1,0 +1,7 @@
+ZodiacIntent  what is the zodiac for {birthDate}
+ZodiacIntent  which zodiac applies to {birthDate}
+ZodiacIntent  which period is covered by zodiac {sign}
+ZodiacIntent  at which date starts {sign}
+GetFactIntent give facts about the cosmos
+GetFactIntent give me an astro fact
+GetFactIntent what is the latest info about the universe
